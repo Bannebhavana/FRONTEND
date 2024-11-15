@@ -6,68 +6,43 @@
     <title>Document</title>
 </head>
 <body>
-    <!--Image text -->
-    <img src="tulip.jpeg" width="100px" height = "100px" alt="">
-    <img src="https://tse3.mm.bing.net/th?id=OIP.3UWcUWeiNcTT7rvWINsQiAHaE8&pid=Api&P=0&h=180" alt="">
-    <!-- list tags-->
+    <p> EM represents <em>add emphasis (italic) </em> to the content</p>
+    <p>STRONG represents<strong>Make text blod for importnace</strong> to the content</p>
+    <p>U represents <u>underlines the text </u> which is there in the content</p>
+    <p>INS represents <ins>inserted text (commmonly underline)</ins> to the content</p>
+    <p>DEL represents <del> indicates deleted text with a strike through</del> to the content</p>
+    <p>MARK represents <mark>highlight the text with yollow background</mark>to the content</p>
+    <p>STRIKE represents <strike>also shows strike through</strike> of the content</p>
+    <p>CITE represents <cite>is for citation(italics)</cite> to the content</p>
+    <p>BLOCKQUOTE represents <blockquote>used for long quotation ,typically displayed with indentation</blockquote></p>
+    <p>Q represents <q>is for inline quotation ,often displayed in quotation marks</q></p>
 
-    <ol><li>default numerals</li></ol>
-    <ol type="i"><li>small roman numerals</li></ol>
-    <ol type="I"><li>big roman numerals</li></ol>
-    <ol type="a"><li>alphabets</li></ol>
-    <ol type ="A"><li>capital alphabets</li></ol>
-    <ul><li>default shape</li></ul>
-    <ul type="square"><li>square</li></ul>
-    <ul type ="circle"><li>circle</li></ul>
-    <dl>
-        <dt>term</dt>
-        <dd>definition</dd>
-    </dl>
-    
-    <table border ="1">
-        <tr>
-           <td rowspan="3" align="center">Day</td> 
-           <td colspan="4" align="center">Seminar</td>
-        </tr>
-        <tr>
-            <td colspan="2" align="center">Schedule</td>
-            <td colspan="2" rowspan="2" align="center">Topic</td>
-        </tr>
-        <tr>
-            <td align="center">Begin</td>
-            <td align="center">End</td>
-        </tr>
-        <tr>
-            <td rowspan="2">Monday</td>
-            <td rowspan="2">8.00 a.m</td>
-            <td rowspan="2">5.00 p.m</td>
-            <td colspan="2" align="center">Introduction to XML</td>
-        </tr>
-        <tr>
-           <td align="center">Validity:DTD and Relax NG</td> 
-        </tr>
-        <tr>
-            <td rowspan="3">Tuesday</td>
-            <td>8:00 a.m</td>
-            <td>11:00 a.m</td>
-            <td align="center">XPath</td>
-        </tr>
-        <tr>
-            <td>11:00 a.m</td>
-            <td>2:00 p.m</td>
-            <td align="center">XSL Transformations</td>
-        </tr>
-        <tr>
-            <td>2:00 p.m</td>
-            <td>5:00 p.m</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>Wednesday</td>
-            <td>8:00 a.m</td>
-            <td>12:00 p.m</td>
-            <td align="center">XSL Formatting Objects</td>
-        </tr>
-    </table>
+    <!-- Semantic HTML-->
+    <!-- Navigation Section -->
+    <nav>
+        <ul>
+           <li><a href="#about">About Us</a></li>
+            <li><a href="#career">career</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main  Section -->
+    <div id="about">
+        <u><h2>About Us</h2></u>
+        <p>This is the main content section where information about the website can go.</p>
+    </div>
+
+    <div id="services">
+       <u> <h2>Services</h2></u>
+        <p>Details about services offered can be placed here.</p>
+    </div>
+
+    <!-- Footer Section -->
+    <footer id="contact">
+        <p><b>Contact us at:</b> Codegnan@gmail.com</p>
+        <p> Website</p>
+    </footer>
+
 </body>
 </html>
